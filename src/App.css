@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: #000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
+  width: 100%;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+
+}
+.input-fiald{
+  width: 32%;
+  height: 485px;
+  border-radius: 10px;
+  border: 4px solid #fcfcfc;
+  background-color: aliceblue;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0px 0px 25px 12px #fcfcfc,
+  inset 0px 0px 25px 12px #fcfcfc;
+}
+.input-fiald > h1{
+  color: #8a2be2;
+  font-size: 24px;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.input-fiald > form > input[type=text]{
+   padding: 7px;
+   width: 70%;
+   border-radius: 4px;
+   outline: none;
+   font-size: 18px;
+   border: none;
+   margin: 1rem 1rem 1rem 0;
+   box-shadow: 0px 0px 12px 6px #a3a2a2;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input-fiald > form > input[type=submit]{
+    width: 23%;
+    padding:8px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #8a2be2;
+    font-weight: bold;
+    border-radius: 4px;
+    box-shadow: 0px 0px 12px 6px #a3a2a2;
 }
+
+.input-fiald > form > input[type=submit]:active{
+  box-shadow: inset 0px 0px 12px 6px #a3a2a2;
+}
+
+.content{
+  height: 350px;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.list-style{
+  width: 97%;
+  padding: .5rem;
+  background: #fff;
+  margin: 1rem .3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+  box-shadow: 0px 0px 5px 4px #a3a2a2;
+}
+
+.list-style:first-child{
+  margin-top: .5rem;
+}
+.list-style > span {
+  display: flex;
+}
+
+.list-style span > li{
+  list-style: none;
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 1rem;
+ 
+}
+.list-style span > button{
+  border: none ;
+  outline: none;
+  cursor: pointer;
+}
+
+.allbtn{
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  font-weight: bold;
+  background-color: #fcfcfc;
+  box-shadow: 0px 0px 5px 4px #a3a2a2;
+}
+
