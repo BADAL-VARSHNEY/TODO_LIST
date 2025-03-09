@@ -1,23 +1,21 @@
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: #000;
 }
 
-.container{
+.container {
   width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
-.input-fiald{
+.input-fiald {
   width: 32%;
   height: 485px;
   border-radius: 10px;
@@ -25,44 +23,43 @@ body{
   background-color: aliceblue;
   padding: 1.5rem;
   margin-bottom: 2rem;
-  box-shadow: 0px 0px 25px 12px #fcfcfc,
-  inset 0px 0px 25px 12px #fcfcfc;
+  box-shadow: 0px 0px 25px 12px #fcfcfc, inset 0px 0px 25px 12px #fcfcfc;
 }
-.input-fiald > h1{
-  color: #8a2be2;
+.input-fiald > h1 {
+  color: #e2312b;
   font-size: 24px;
   font-weight: bold;
 }
 
-.input-fiald > form > input[type=text]{
-   padding: 7px;
-   width: 70%;
-   border-radius: 4px;
-   outline: none;
-   font-size: 18px;
-   border: none;
-   margin: 1rem 1rem 1rem 0;
-   box-shadow: 0px 0px 12px 6px #a3a2a2;
+.input-fiald > form > input[type="text"] {
+  padding: 7px;
+  width: 70%;
+  border-radius: 4px;
+  outline: none;
+  font-size: 18px;
+  border: none;
+  margin: 1rem 1rem 1rem 0;
+  box-shadow: 0px 0px 12px 6px #a3a2a2;
 }
 
-.input-fiald > form > input[type=submit]{
-    width: 23%;
-    padding:8px;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    font-weight: bold;
-    color: #8a2be2;
-    font-weight: bold;
-    border-radius: 4px;
-    box-shadow: 0px 0px 12px 6px #a3a2a2;
+.input-fiald > form > input[type="submit"] {
+  width: 23%;
+  padding: 8px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #8a2be2;
+  font-weight: bold;
+  border-radius: 4px;
+  box-shadow: 0px 0px 12px 6px #a3a2a2;
 }
 
-.input-fiald > form > input[type=submit]:active{
+.input-fiald > form > input[type="submit"]:active {
   box-shadow: inset 0px 0px 12px 6px #a3a2a2;
 }
 
-.content{
+.content {
   height: 350px;
   overflow-y: scroll;
 }
@@ -71,11 +68,11 @@ body{
   display: none;
 }
 
-.list-style{
+.list-style {
   width: 97%;
-  padding: .5rem;
+  padding: 0.5rem;
   background: #fff;
-  margin: 1rem .3rem;
+  margin: 1rem 0.3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -83,27 +80,26 @@ body{
   box-shadow: 0px 0px 5px 4px #a3a2a2;
 }
 
-.list-style:first-child{
-  margin-top: .5rem;
+.list-style:first-child {
+  margin-top: 0.5rem;
 }
 .list-style > span {
   display: flex;
 }
 
-.list-style span > li{
+.list-style span > li {
   list-style: none;
   font-weight: bold;
   font-size: 18px;
   margin-left: 1rem;
- 
 }
-.list-style span > button{
-  border: none ;
+.list-style span > button {
+  border: none;
   outline: none;
   cursor: pointer;
 }
 
-.allbtn{
+.allbtn {
   padding: 5px 10px;
   border-radius: 4px;
   border: none;
@@ -116,4 +112,3 @@ body{
   background-color: #fcfcfc;
   box-shadow: 0px 0px 5px 4px #a3a2a2;
 }
-
